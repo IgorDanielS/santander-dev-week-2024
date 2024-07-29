@@ -65,4 +65,12 @@ public class User {
     public void setNews(List<News> news) {
         this.news = news;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
